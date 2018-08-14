@@ -14,7 +14,7 @@ public class ReadWriter {
         }  
 		try {  
 			System.out.println("\n***Reading Begins here***");
-            Reader reader = new FileReader("output.txt");  
+            Reader reader = new FileReader("output.txt"); 
             int data = reader.read();  
             while (data != -1) {  
                 System.out.print((char) data);  
