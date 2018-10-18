@@ -1,11 +1,11 @@
 import java.io.*;
 interface Deposit
 {
-	 void deposit(float amt);
+	void deposit(float amt);
 }
 interface Withdraw
 {
-public void withdraw();
+	public void withdraw();
 
 }
 

@@ -46,7 +46,7 @@ public class output
 			test a = new test();
 			a.read();
 			
-			objout.writeObject(a);
+			objout.writeObject(a);	
 			objout.close();
 			filew.close();
 		}
